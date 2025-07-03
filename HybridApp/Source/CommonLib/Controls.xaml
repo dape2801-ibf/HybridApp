@@ -1,0 +1,14 @@
+﻿<ResourceDictionary
+    x:Name="WpfControlsDictionary"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <!--
+            NOTE: The order of entries is based on their dependencies!
+            All Styles referenced in the defaults need to be loaded beforehand!
+        -->
+        <ResourceDictionary Source="/CommonLib;component/Controls/HybridWindow.xaml" />
+
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

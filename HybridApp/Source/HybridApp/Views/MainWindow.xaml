@@ -1,0 +1,66 @@
+﻿<controls1:HybridWindow x:Class="HybridApp.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:HybridApp.ViewModels"
+        xmlns:controls1="clr-namespace:CommonLib.Controls;assembly=CommonLib"
+        mc:Ignorable="d"
+        Title="HybridApp" Height="450" Width="800"
+        d:DataContext="{d:DesignInstance viewModels:MainWindowViewModel}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Margin="16"
+            Grid.Row = "0"
+            Text="Das neue WPF Dashboard"
+            TextAlignment="Center"
+            Name="HeaderText"
+            Foreground="Blue"
+            FontSize="32"
+            FontWeight="Bold"/>
+        <Button
+            Margin="4"
+            Grid.Row="1"
+            Content="Über diese Applikation (WPF)"
+            MaxWidth="200"
+            Command="{Binding OpenAboutWindow}"
+            Cursor="Hand"/>
+        <Button
+            Margin="4"
+            Grid.Row="2"
+            Content="MDI-Fenster (WinForms)"
+            MaxWidth="200"
+            Command="{Binding OpenWinFormsApplication}"
+            Cursor="Hand"/>
+        <Button
+            Margin="4"
+            Grid.Row="3"
+            Content="Adressverwaltung (WinForms)"
+            MaxWidth="200"
+            Command="{Binding OpenCustomerManagement}"
+            Cursor="Hand"/>
+        <Button
+            Margin="4"
+            Grid.Row="4"
+            Content="Auftragsverwaltung (WinForms)"
+            MaxWidth="200"
+            Command="{Binding OpenOrderManagement}"
+            Cursor="Hand"/>
+        <Button
+            Margin="4"
+            Grid.Row="5"
+            Content="Einen Aktionsdialog öffnen (WinForms)"
+            MaxWidth="250"
+            Command="{Binding OpenActionDialog}"
+            Cursor="Hand"/>
+    </Grid>
+</controls1:HybridWindow>

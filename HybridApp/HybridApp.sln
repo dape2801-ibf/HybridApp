@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LegacyWinForms", "LegacyWinForms", "{E2D67665-D069-4A5A-B79C-41E4B64136ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyWinForms", "Source\LegacyWinForms\LegacyWinForms.csproj", "{209AB901-BEBD-471E-B8E4-CBD59AC9F6D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HybridApp", "HybridApp", "{8C7E4FF7-5E05-4160-9209-D0695711600D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{80B5335B-9745-4E70-B0E4-1F7A553896C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridApp", "Source\HybridApp\HybridApp.csproj", "{389AA47D-E81D-4FD3-BD43-D870E0CB8A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "Source\CommonLib\CommonLib.csproj", "{9C44A654-515B-43BE-8AA5-10DC566ACAA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyWinForms.Contracts", "Source\LegacyWinForms.Contracts\LegacyWinForms.Contracts.csproj", "{9EC02E3C-1455-4371-8192-444C06ACBD5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyWinForms.Connector", "Source\LegacyWinForms.Connector\LegacyWinForms.Connector.csproj", "{4A1245E7-016C-49D5-802F-D09573E2440A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{209AB901-BEBD-471E-B8E4-CBD59AC9F6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209AB901-BEBD-471E-B8E4-CBD59AC9F6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209AB901-BEBD-471E-B8E4-CBD59AC9F6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209AB901-BEBD-471E-B8E4-CBD59AC9F6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389AA47D-E81D-4FD3-BD43-D870E0CB8A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389AA47D-E81D-4FD3-BD43-D870E0CB8A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389AA47D-E81D-4FD3-BD43-D870E0CB8A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389AA47D-E81D-4FD3-BD43-D870E0CB8A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C44A654-515B-43BE-8AA5-10DC566ACAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C44A654-515B-43BE-8AA5-10DC566ACAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C44A654-515B-43BE-8AA5-10DC566ACAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C44A654-515B-43BE-8AA5-10DC566ACAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC02E3C-1455-4371-8192-444C06ACBD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC02E3C-1455-4371-8192-444C06ACBD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC02E3C-1455-4371-8192-444C06ACBD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC02E3C-1455-4371-8192-444C06ACBD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1245E7-016C-49D5-802F-D09573E2440A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1245E7-016C-49D5-802F-D09573E2440A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1245E7-016C-49D5-802F-D09573E2440A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1245E7-016C-49D5-802F-D09573E2440A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{209AB901-BEBD-471E-B8E4-CBD59AC9F6D1} = {E2D67665-D069-4A5A-B79C-41E4B64136ED}
+		{389AA47D-E81D-4FD3-BD43-D870E0CB8A0C} = {8C7E4FF7-5E05-4160-9209-D0695711600D}
+		{9C44A654-515B-43BE-8AA5-10DC566ACAA9} = {80B5335B-9745-4E70-B0E4-1F7A553896C3}
+		{9EC02E3C-1455-4371-8192-444C06ACBD5F} = {8C7E4FF7-5E05-4160-9209-D0695711600D}
+		{4A1245E7-016C-49D5-802F-D09573E2440A} = {8C7E4FF7-5E05-4160-9209-D0695711600D}
+	EndGlobalSection
+EndGlobal
